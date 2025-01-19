@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+    url('../fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Regular.woff2') format('woff2'),
+    url('../fonts/Cormorant-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --main-color: #ffffff;
+  --links-color: #bae249;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--main-color);
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 32px;
+  max-width: 1174px;
+}
