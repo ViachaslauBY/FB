@@ -9,10 +9,45 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/main.js" defer></script>
-  
+  <script src="js/burger-menu.js" defer></script>  
   <title>F&B</title>
 </head>
 <body>
-  
+  <header class="header">
+    <div class="container header__container">
+      <a class="header__logo" href="#">
+        <img class="logo__img" src="img/logo.png" alt="Логотип">
+      </a>
+      <button class="header__burger" type="button" aria-label="Меню">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>        
+      </button>      
+      <nav class="header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Каталог</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Галерея</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">О лаборатории</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__buttons">
+        <a class="button__search" href="#" title="Поиск">
+          <img class="search__img" src="img/search.svg" alt="Поиск">
+        </a>
+        <a class="button__log-in" href="#" title="Войти в систему">
+          <img class="log-in__img" src="img/log-in.svg" alt="Войти в систему">
+        </a>              
+      </div>
+    </div>
+  </header>
 </body>
 </html>
